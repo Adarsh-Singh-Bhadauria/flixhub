@@ -3,7 +3,7 @@
 
 ## Introduction
 
-Movie Finder is a sleek React app that leverages the OMDb API to enable users to search for movies and view detailed information. Users can enter a movie title to fetch results, click on a poster to see details like plot, cast, and rating.
+FlixHub is a sleek React app that leverages the OMDb API to enable users to search for movies and view detailed information. Users can enter a movie title to fetch results, click on a poster to see details like plot, cast, and rating.
 
 Project hosted on -  https://flixhub-movie-app.netlify.app 
 

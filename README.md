@@ -1,70 +1,55 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# FlixHub
 
-## Available Scripts
+## Introduction
 
-In the project directory, you can run:
+Movie Finder is a sleek React app that leverages the OMDb API to enable users to search for movies and view detailed information. Users can enter a movie title to fetch results, click on a poster to see details like plot, cast, and rating.
 
-### `npm start`
+Project hosted on -  https://flixhub-movie-app.netlify.app 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+● Users can enter the name of a movie in the search bar to fetch relevant results from the OMDb API.
 
-### `npm test`
+● On clicking a movie poster, the app fetches and displays comprehensive details about the selected movie.  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+● The application uses React hooks and functional components to ensure optimal performance and maintainability.
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To run this project locally, follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+● Clone the repository: git clone https://github.com/Adarsh-Singh-Bhadauria/flixhub.git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+● Navigate to the project directory: cd react-project-name
 
-### `npm run eject`
+● Install the dependencies: npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+● Start the development server: npm start
+Open your browser and visit http://localhost:3000 to view the app.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contributing
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Contributions are welcome! If you'd like to contribute to this project, please follow these guidelines:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+● Fork the repository.
 
-## Learn More
+● Create a new branch: git checkout -b feature/your-feature-name
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+● Commit your changes: git commit -m "Add your commit message"
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+● Push to the branch: git push origin feature/your-feature-name
+Open a pull request.
 
-### Code Splitting
+## Issue report template
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+#### Before submitting a issue report determine if your bug is really a bug and not an error on your side e.g. using incompatible environment components/versions.
 
-### Analyzing the Bundle Size
+● A descriptive title.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+● An isolated way to reproduce the behavior (example: GitHub repository with code isolated to the issue that anyone can clone to observe the problem).
 
-### Making a Progressive Web App
+● What platform(s) you're running it on.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+● The behavior you expect to see, and the actual behavior.
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
